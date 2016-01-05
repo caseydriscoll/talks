@@ -1,0 +1,19 @@
+How is language represented?
+
+As communication has expanded over the Internet over the last few decades, the world has needed more consistent ways to send messages and information.
+
+Unicode is the most popular way to express our collective and historical visual language characters into a series of digital ones and zeros.
+
+This talk is for people who have heard the word 'Unicode' before, but don't know what it is. 
+
+Very few people need to grasp the complexities of Unicode for their daily work. However, an overview of the problems it solves, and the clever ways in which it solves it, will give all practitioners a better understanding of how the underlying technology works.
+
+This is an overview that will only scratch the surface. We will discuss bits and bytes, but the talk will be presented in a way to introduce these foundational computer science ideas to new users. It may be challenging for some, but all focus will be put on introducing deep, abstract ideas to new users, empowering them to discover more on their own going forward.
+
+Preliminary structure is:
+1. Representing characters as abstract numbers
+2. The limitations of historic charset standards
+3. ASCII and Latin1 'single byte' representations
+4. UTF-8 'multibyte' representations
+5. The WordPress 4.2 UTF8mb4 upgrade and emoji
+6. Unicode 9.0 and the Future
