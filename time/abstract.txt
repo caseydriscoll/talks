@@ -1,0 +1,19 @@
+How is time represented?
+
+Time and time keeping is at the heart of all computers, networks and communication systems. It is essential that all components of the global system agree on time to keep processes in sync every minute of the year.
+
+But why, and how?
+
+Time may be arbitrary,  but the rules defining the storage and manipulation of time are not. We will briefly examine the history of time keeping, how the Unix Epoch defines digital time today, how to store and manipulate time in WordPress, and some difficult edge cases for manipulating time and keeping it in sync.
+
+Very few people need to grasp the complexities of Time for their daily work. However, an overview of the problems it solves, and the clever ways in which it solves it, will give all practitioners a better understanding of how the underlying technology works.
+
+This is an overview that will only scratch the surface. The talk will be presented in a way to introduce foundational computer science ideas to new users. It may be challenging for some, but all focus will be put on introducing deep, abstract ideas to new users, empowering them to discover more on their own going forward.
+
+Preliminary structure is:
+1. Overview of historic time keeping methods
+2. The Unix Epoch
+3. Storing time in MySQL as timestamp and MySQL formats
+4. Retrieving and formatting time in WordPress
+5. Manipulating time in PHP and Javascript
+6. The difficult edge cases of time manipulation (adding months together, etc)
