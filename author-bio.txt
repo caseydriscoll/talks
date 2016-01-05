@@ -3,6 +3,8 @@ By day, a full stack web dev of open source technologies that include WordPress 
 http://agencychief.com/team-member/casey-driscoll
 https://patch.works/about/casey-driscoll
 
+Casey has an undergraduate degree in Computer Science from the University of Wisconsin-Eau Claire.
+
 Spoken at a few local tech events. Co-organizer at WordPressDC meet up.
 
 https://www.youtube.com/watch?v=wSPgLnfjqSA
