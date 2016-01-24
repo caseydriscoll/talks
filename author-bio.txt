@@ -1,4 +1,5 @@
-By day, a full stack web dev of open source technologies that include WordPress and JS at CHIEF. By night, a dedicated community organizer in the DC Tech community and the founder of PatchWorks.
+By day, a full stack web dev of open source technologies that include WordPress and JS at CHIEF.
+By night, a dedicated community organizer in the DC Tech community and the founder of PatchWorks.
 
 http://agencychief.com/team-member/casey-driscoll
 https://patch.works/about/casey-driscoll
