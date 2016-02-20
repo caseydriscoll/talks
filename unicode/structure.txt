@@ -1,3 +1,49 @@
+1. Representing characters as abstract numbers
+
+  1.1 Encoded Joke Intro
+    - You can only laugh when you understand
+    - You can only understand when you transfer in a language you understand
+  1.2 What is Unicode (getting more specific)
+    - A way to transfer language over the Internet
+    - A way of transfering written human language as computer language
+    - An agreed upon way of transfering written human language characters as computer language
+    - A globally agreed upon standard format of transfering any and all human language characters as digital bits and bytes 
+  
+2. The limitations of historic charset standards
+
+  2.0 Lots of characters, how to start?
+    - Historically, thousands of written languages, using potentially millions of unique characters
+
+  2.1 7 bit codes
+    - Started out with Western European languages
+
+  2.2 Globablization
+    - More societies needed more access
+
+  2.3 Agreeing on the same thing is difficult
+    - XKCD comic about standards
+
+3. ASCII and Latin1 'single byte' representations
+
+  3.1 First Clever Thing - 65 as A
+
+4. UTF-8 'multibyte' representations
+
+  4.1 Second Clever Thing - Expanding set
+  4.2 Header Byte
+
+5. The WordPress 4.2 UTF8mb4 upgrade and emoji
+
+6. Unicode 9.0 and the Future
+
+7. Introduction and Conclusion
+
+  7.1 Casey from CHIEF
+  7.2 I love the daily perspective provided by CS driven logic and abstraction
+  7.3 WordPress is the gateway technology for many people
+  7.4 I would love to inspire others to learn more about deeper topics
+  7.5 The goal of this talk was aspirational. There was enough info here to whet your appetite, but it was built so you could dig through the resources on your own.
+
 1. Intro
 
 01001000 01101111 01110111 00100000 

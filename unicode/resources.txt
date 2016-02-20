@@ -1,0 +1,29 @@
+Wikipedia - Unicode
+https://en.wikipedia.org/wiki/Unicode
+
+Characters, Symbols and the Unicode Miracle - Computerphile
+https://www.youtube.com/watch?v=MijmeoH9LT4
+
+EXTRA BITS - UTF-8 'nearly' works - Computerphile
+https://www.youtube.com/watch?v=qBex3IDaUbU
+
+One Unicode per Frame
+https://www.youtube.com/watch?v=Z_sl99D2a18
+
+More thorough intro to UTF-8 and Unicode
+https://www.youtube.com/watch?v=sqPTR_v4qFA
+
+Make WordPress Core
+https://make.wordpress.org/core/2015/04/02/the-utf8mb4-upgrade/
+
+Joel on Software
+http://www.joelonsoftware.com/articles/Unicode.html
+
+Tom McFarlin
+https://tommcfarlin.com/unicode-characters-in-wordpress/
+
+Nacin - Anatomy of a Critical Security Bug
+https://www.youtube.com/watch?v=yQaRUEwEKxE
+
+Post Status - The Trojan Emoji
+https://poststatus.com/the-trojan-emoji/
