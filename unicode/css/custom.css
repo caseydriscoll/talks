@@ -26,5 +26,33 @@ section.structure ol {
       right: 0; }
     section.structure ol li.current {
       color: #aa2233; }
+section.joke pre {
+  float: left;
+  width: 50%;
+  font-size: .6em;
+  box-shadow: none; }
+  section.joke pre:last-of-type {
+    width: 100%;
+    font-size: .35em;
+    text-align: center;
+    color: #aa2233; }
+section.joke.hex pre {
+  width: 30%;
+  font-size: 1em; }
+  section.joke.hex pre:first-of-type {
+    margin-left: 22.5%; }
+  section.joke.hex pre:last-of-type {
+    width: 100%;
+    font-size: .6em;
+    text-align: center; }
+section.joke.char pre {
+  width: 35%;
+  font-size: 1.4em; }
+  section.joke.char pre:first-of-type {
+    margin-left: 17.5%; }
+  section.joke.char pre:last-of-type {
+    width: 100%;
+    font-size: .6em;
+    text-align: center; }
 
 /*# sourceMappingURL=custom.css.map */

@@ -35,4 +35,60 @@ section {
 			}
 		}
 	}
+
+	&.joke {
+
+		pre {
+			float: left;
+			width: 50%;
+			font-size: .6em;
+			box-shadow: none;
+
+			&:last-of-type {
+				width: 100%;
+				font-size: .35em;
+				text-align: center;
+				color: $red;
+			}
+
+		}
+
+		&.hex {
+			pre {
+				width: 30%;
+				font-size: 1em;
+
+				&:first-of-type {
+					margin-left: 22.5%;
+				}
+
+				&:last-of-type {
+					width: 100%;
+					font-size: .6em;
+					text-align: center;
+				}
+			}
+		}
+
+		&.char {
+			pre {
+				width: 35%;
+				font-size: 1.4em;
+
+				&:first-of-type {
+					margin-left: 17.5%;
+				}
+
+				&:last-of-type {
+					width: 100%;
+					font-size: .6em;
+					text-align: center;
+				}
+			}
+		}
+
+	}
 }
+
+
+
