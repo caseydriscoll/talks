@@ -4,18 +4,19 @@ section.structure ol {
     display: block;
     position: relative;
     float: left;
-    width: 36%;
+    width: 44%;
     height: 160px;
-    margin: 20px 7%;
-    font-size: 35px;
+    margin: 20px 3%;
+    font-size: 55px;
+    line-height: 55px;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
     list-style: none; }
     section.structure ol li::before, section.structure ol li::after {
       position: absolute;
-      top: -40px;
-      font-size: 120px;
+      top: 15px;
+      font-size: 160px;
       font-weight: normal; }
     section.structure ol li::before {
       content: "{";
