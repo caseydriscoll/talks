@@ -2,6 +2,22 @@ $red : #aa2233;
 
 section {
 
+	em { color: $red; }
+
+	&.definition {
+		text-align: left;
+
+		h1 {
+			position: absolute;
+			top: -100px;
+		}
+
+		h3 {
+			position: absolute;
+			top: 70px;
+		}
+	}
+
 	&.structure {
 
 		ol {
