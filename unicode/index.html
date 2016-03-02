@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>reveal.js – The HTML Presentation Framework</title>
+		<title>UNICODE</title>
 
 		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
 		<meta name="author" content="Casey Driscoll">
@@ -50,31 +50,34 @@
 
 				<section>
 					<h1>Definitions</h1>
+					<ul>
+						<li>Glyphs</li>
+					</ul>
 				</section>
 
 				<section>
 					<h1>Resources</h1>
 				</section>
 
-				<section class="structure">
+				<section class="structure" data-transition="none-out">
 					<ol>
 						<li>Cold<br />Open</li>
 						<li>Historic<br />Charsets</li>
 						<li>Single<br />Byte</li>
 						<li>Multi<br />Byte</li>
+						<li>Variable<br />Byte</li>
 						<li>WP 4.2<br />utf8mb4</li>
-						<li>The<br />Future</li>
 					</ol>
 				</section>
 
-				<section class="structure">
+				<section class="structure" data-transition="none-in">
 					<ol>
 						<li class="current">Cold<br />Open</li>
 						<li>Historic<br />Charsets</li>
 						<li>Single<br />Byte</li>
 						<li>Multi<br />Byte</li>
+						<li>Variable<br />Byte</li>
 						<li>WP 4.2<br />utf8mb4</li>
-						<li>The<br />Future</li>
 					</ol>
 				</section>
 
@@ -223,10 +226,76 @@ You put a
 						<li class="current">Historic<br />Charsets</li>
 						<li>Single<br />Byte</li>
 						<li>Multi<br />Byte</li>
+						<li>Variable<br />Byte</li>
 						<li>WP 4.2<br />utf8mb4</li>
-						<li>The<br />Future</li>
 					</ol>
 				</section>
+
+
+
+				<section>
+					<h1>Glyphs</h1>
+					<img src="images/a-small-glyphs.svg" class="clean" />
+				</section>
+
+				<section>
+					<h1>Simple Encoding</h1>
+				</section>
+
+				<section class="characters">
+<pre>
+A
+B
+C
+D
+</pre>
+<pre>
+a
+b
+c
+d
+</pre>
+				</section>
+
+				<section class="characters">
+<pre>
+A = 1
+B = 2
+C = 3
+D = 4
+</pre>
+<pre>
+a = 27
+b = 28
+c = 29
+d = 30
+</pre>
+				</section>
+
+				<section>
+					<h1>Simple Encoding</h1>
+					<h3 class="fragment">52 characters</h3>
+					<h3 class="fragment">Punctuation</h3>
+					<h3 class="fragment">Control Characters</h3>
+				</section>
+
+
+				<section>
+					<h1>Inclusive Encoding</h1>
+					<h3 class="fragment">Special characters</h3>
+					<h3 class="fragment">Additional Languages</h3>
+					<h3 class="fragment">Design Characters</h3>
+				</section>
+
+				<section>
+					<script>
+
+					</script>
+				</section>
+
+
+
+
 
 				<section class="structure">
 					<ol>
@@ -234,8 +303,8 @@ You put a
 						<li>Historic<br />Charsets</li>
 						<li class="current">Single<br />Byte</li>
 						<li>Multi<br />Byte</li>
+						<li>Variable<br />Byte</li>
 						<li>WP 4.2<br />utf8mb4</li>
-						<li>The<br />Future</li>
 					</ol>
 				</section>
 
@@ -245,8 +314,8 @@ You put a
 						<li>Historic<br />Charsets</li>
 						<li>Single<br />Byte</li>
 						<li class="current">Multi<br />Byte</li>
+						<li>Variable<br />Byte</li>
 						<li>WP 4.2<br />utf8mb4</li>
-						<li>The<br />Future</li>
 					</ol>
 				</section>
 
@@ -256,19 +325,19 @@ You put a
 						<li>Historic<br />Charsets</li>
 						<li>Single<br />Byte</li>
 						<li>Multi<br />Byte</li>
+						<li class="current">Variable<br />Byte</li>
+						<li>WP 4.2<br />utf8mb4</li>
+					</ol>
+				</section>
+
+				<section class="structure">
+					<ol>
+						<li>Cold<br />Open</li>
+						<li>Historic<br />Charsets</li>
+						<li>Single<br />Byte</li>
+						<li>Multi<br />Byte</li>
+						<li>Variable<br />Byte</li>
 						<li class="current">WP 4.2<br />utf8mb4</li>
-						<li>The<br />Future</li>
-					</ol>
-				</section>
-
-				<section class="structure">
-					<ol>
-						<li>Cold<br />Open</li>
-						<li>Historic<br />Charsets</li>
-						<li>Single<br />Byte</li>
-						<li>Multi<br />Byte</li>
-						<li>WP 4.2<br />utf8mb4</li>
-						<li class="current">The<br />Future</li>
 					</ol>
 				</section>
 

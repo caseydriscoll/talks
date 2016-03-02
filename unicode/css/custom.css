@@ -1,5 +1,9 @@
 section em {
   color: #aa2233; }
+section img.clean {
+  border: none;
+  background: none;
+  box-shadow: none; }
 section.definition {
   text-align: left; }
   section.definition h1 {
@@ -64,5 +68,10 @@ section.joke.char pre {
     width: 100%;
     font-size: .6em;
     text-align: center; }
+section.characters pre {
+  float: left;
+  width: 50%;
+  font-size: 3em;
+  box-shadow: none; }
 
 /*# sourceMappingURL=custom.css.map */

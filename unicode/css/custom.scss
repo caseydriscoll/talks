@@ -4,6 +4,12 @@ section {
 
 	em { color: $red; }
 
+	img.clean {
+		border: none;
+		background: none;
+		box-shadow: none;
+	}
+
 	&.definition {
 		text-align: left;
 
@@ -104,6 +110,16 @@ section {
 		}
 
 	}
+
+	&.characters {
+		pre {
+			float: left;
+			width: 50%;
+			font-size: 3em;
+			box-shadow: none;
+		}
+	}
+
 }
 
 
