@@ -124,5 +124,7 @@ section .postbyte {
       color: #222222;
       font-family: cursive;
       font-size: 19px; }
+section.nametag img {
+  transform: rotate(-5deg); }
 
 /*# sourceMappingURL=custom.css.map */

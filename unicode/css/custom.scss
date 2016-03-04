@@ -184,6 +184,12 @@ section {
 
 	}
 
+	&.nametag {
+		img {
+			transform: rotate(-5deg);
+		}
+	}
+
 }
 
 
