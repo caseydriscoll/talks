@@ -120,6 +120,48 @@ section {
 		}
 	}
 
+
+	.postbyte {
+
+		float: left;
+		width: 33%;
+
+		pre.byte {
+
+			width: 100%;
+			margin: 20px 5px 30px;
+			font-size: 1.1em;
+			box-shadow: none;
+
+			&:before, &:after {
+				content: "[";
+				margin: 0;
+				font-size: 1.2em;
+			}
+
+			&:after {
+				content: "]";
+			}
+		}
+
+		.postcard {
+			position: relative;
+			width: 280px; height: 240px;
+			background: #ffffff;
+			border: 2px solid black;
+			outline: 6px solid white;
+
+			&:after {
+				content: "";
+				position: absolute;
+				right: 10px; top: 10px;
+				width: 40px; height: 50px;
+				background: #333;
+			}
+		}
+
+	}
+
 }
 
 
