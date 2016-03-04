@@ -143,6 +143,12 @@ section {
 			width: 50%;
 			font-size: 3em;
 			box-shadow: none;
+
+			&.full { 
+				width: 100%;
+				font-size: 4em;
+				line-height: .8em;
+			}
 		}
 	}
 

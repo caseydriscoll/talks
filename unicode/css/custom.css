@@ -93,6 +93,10 @@ section.characters pre {
   width: 50%;
   font-size: 3em;
   box-shadow: none; }
+  section.characters pre.full {
+    width: 100%;
+    font-size: 4em;
+    line-height: .8em; }
 section .postbyte {
   float: left;
   width: 33%; }
