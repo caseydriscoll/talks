@@ -4,6 +4,8 @@ section img.clean {
   border: none;
   background: none;
   box-shadow: none; }
+section .face {
+  font-size: 3.5em; }
 section.byteTicker {
   position: relative; }
   section.byteTicker h1 {
