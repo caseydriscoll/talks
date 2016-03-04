@@ -154,9 +154,10 @@ section {
 			&:after {
 				content: "";
 				position: absolute;
-				right: 10px; top: 10px;
-				width: 40px; height: 50px;
-				background: #333;
+				right: 5px; top: 5px;
+				width: 50px; height: 60px;
+				background: url( '../images/stamp.gif' );
+				background-size: cover;
 			}
 		}
 
