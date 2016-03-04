@@ -11,6 +11,29 @@ section {
 		box-shadow: none;
 	}
 
+	&.byteTicker {
+		position: relative;
+
+		h1 { 
+			font-family: monospace; 
+			text-align: right;
+
+			#byteTickerNumber {
+				position: absolute;
+				right: 0; top: -100px;
+			}
+
+			#byteTickerChar {
+				display: block; position: absolute;
+				left: 0; top: -100px;
+				padding: 0 30px;
+				color: $red;
+				text-shadow: none;
+				border: 5px solid $red;
+			}
+		}
+	}
+
 	&.definition {
 		text-align: left;
 

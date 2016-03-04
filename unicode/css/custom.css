@@ -4,6 +4,24 @@ section img.clean {
   border: none;
   background: none;
   box-shadow: none; }
+section.byteTicker {
+  position: relative; }
+  section.byteTicker h1 {
+    font-family: monospace;
+    text-align: right; }
+    section.byteTicker h1 #byteTickerNumber {
+      position: absolute;
+      right: 0;
+      top: -100px; }
+    section.byteTicker h1 #byteTickerChar {
+      display: block;
+      position: absolute;
+      left: 0;
+      top: -100px;
+      padding: 0 30px;
+      color: #aa2233;
+      text-shadow: none;
+      border: 5px solid #aa2233; }
 section.definition {
   text-align: left; }
   section.definition h1 {
