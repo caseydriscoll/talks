@@ -76,17 +76,25 @@ section.characters pre {
 section .postbyte {
   float: left;
   width: 33%; }
+  section .postbyte:first-of-type pre.byte:before {
+    content: '[';
+    left: -5px; }
+  section .postbyte:last-of-type pre.byte:after {
+    content: ']';
+    right: -5px; }
   section .postbyte pre.byte {
-    width: 100%;
-    margin: 20px 5px 30px;
-    font-size: 1.1em;
+    padding: 0;
+    margin: 20px 0 30px;
+    font-size: 1.2em;
+    text-align: center;
     box-shadow: none; }
     section .postbyte pre.byte:before, section .postbyte pre.byte:after {
-      content: "[";
+      position: absolute;
+      top: -6px;
       margin: 0;
       font-size: 1.2em; }
-    section .postbyte pre.byte:after {
-      content: "]"; }
+    section .postbyte pre.byte b {
+      color: #aa2233; }
   section .postbyte .postcard {
     position: relative;
     width: 280px;
@@ -103,5 +111,18 @@ section .postbyte {
       height: 60px;
       background: url("../images/stamp.gif");
       background-size: cover; }
+    section .postbyte .postcard h5 {
+      text-align: left;
+      padding: 10px 20px 5px;
+      text-shadow: none;
+      color: #aa2233; }
+    section .postbyte .postcard p {
+      padding: 0 10px;
+      margin: 0;
+      text-align: left;
+      text-shadow: none;
+      color: #222222;
+      font-family: cursive;
+      font-size: 19px; }
 
 /*# sourceMappingURL=custom.css.map */
