@@ -1,0 +1,130 @@
+section em {
+  color: #aa2233; }
+section img.clean {
+  border: none;
+  background: none;
+  box-shadow: none; }
+section.definition {
+  text-align: left; }
+  section.definition h1 {
+    position: absolute;
+    top: -100px; }
+  section.definition h3 {
+    position: absolute;
+    top: 70px; }
+section.structure ol {
+  margin-top: 40px; }
+  section.structure ol li {
+    display: block;
+    position: relative;
+    float: left;
+    width: 44%;
+    height: 160px;
+    margin: 20px 3%;
+    font-size: 55px;
+    line-height: 55px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    list-style: none; }
+    section.structure ol li::before, section.structure ol li::after {
+      position: absolute;
+      top: 15px;
+      font-size: 160px;
+      font-weight: normal; }
+    section.structure ol li::before {
+      content: "{";
+      left: 0; }
+    section.structure ol li::after {
+      content: "}";
+      right: 0; }
+    section.structure ol li.current {
+      color: #aa2233; }
+section.joke pre {
+  float: left;
+  width: 50%;
+  font-size: .6em;
+  box-shadow: none; }
+  section.joke pre:last-of-type {
+    width: 100%;
+    font-size: .35em;
+    text-align: center;
+    color: #aa2233; }
+section.joke.hex pre {
+  width: 30%;
+  font-size: 1em; }
+  section.joke.hex pre:first-of-type {
+    margin-left: 22.5%; }
+  section.joke.hex pre:last-of-type {
+    width: 100%;
+    font-size: .6em;
+    text-align: center; }
+section.joke.char pre {
+  width: 35%;
+  font-size: 1.4em; }
+  section.joke.char pre:first-of-type {
+    margin-left: 17.5%; }
+  section.joke.char pre:last-of-type {
+    width: 100%;
+    font-size: .6em;
+    text-align: center; }
+section.characters pre {
+  float: left;
+  width: 50%;
+  font-size: 3em;
+  box-shadow: none; }
+section .postbyte {
+  float: left;
+  width: 33%; }
+  section .postbyte:first-of-type pre.byte:before {
+    content: '[';
+    left: -5px; }
+  section .postbyte:last-of-type pre.byte:after {
+    content: ']';
+    right: -5px; }
+  section .postbyte pre.byte {
+    padding: 0;
+    margin: 20px 0 30px;
+    font-size: 1.2em;
+    text-align: center;
+    box-shadow: none; }
+    section .postbyte pre.byte:before, section .postbyte pre.byte:after {
+      position: absolute;
+      top: -6px;
+      margin: 0;
+      font-size: 1.2em; }
+    section .postbyte pre.byte b {
+      color: #aa2233; }
+  section .postbyte .postcard {
+    position: relative;
+    width: 280px;
+    height: 240px;
+    background: #ffffff;
+    border: 2px solid black;
+    outline: 6px solid white; }
+    section .postbyte .postcard:after {
+      content: "";
+      position: absolute;
+      right: 5px;
+      top: 5px;
+      width: 50px;
+      height: 60px;
+      background: url("../images/stamp.gif");
+      background-size: cover; }
+    section .postbyte .postcard h5 {
+      text-align: left;
+      padding: 10px 20px 5px;
+      text-shadow: none;
+      color: #aa2233; }
+    section .postbyte .postcard p {
+      padding: 0 10px;
+      margin: 0;
+      text-align: left;
+      text-shadow: none;
+      color: #222222;
+      font-family: cursive;
+      font-size: 19px; }
+section.nametag img {
+  transform: rotate(-5deg); }
+
+/*# sourceMappingURL=custom.css.map */

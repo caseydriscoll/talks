@@ -1,0 +1,196 @@
+$red   : #aa2233;
+$black : #222222;
+
+section {
+
+	em { color: $red; }
+
+	img.clean {
+		border: none;
+		background: none;
+		box-shadow: none;
+	}
+
+	&.definition {
+		text-align: left;
+
+		h1 {
+			position: absolute;
+			top: -100px;
+		}
+
+		h3 {
+			position: absolute;
+			top: 70px;
+		}
+	}
+
+	&.structure {
+
+		ol {
+
+			margin-top: 40px;
+
+			li {
+				display: block; position: relative; float: left;
+				width: 44%; height: 160px;
+				margin: 20px 3%;
+
+				font-size: 55px;
+				line-height: 55px;
+				font-weight: bold;
+				text-align: center;
+				text-transform: uppercase;
+				list-style: none;
+
+				&::before,
+				&::after {
+					position: absolute;
+					top: 15px;
+					font-size: 160px;
+					font-weight: normal;
+				}
+
+				&::before { content: "{"; left: 0; }
+				&::after  { content: "}"; right: 0; }
+
+				&.current { color: $red; }
+			}
+		}
+	}
+
+	&.joke {
+
+		pre {
+			float: left;
+			width: 50%;
+			font-size: .6em;
+			box-shadow: none;
+
+			&:last-of-type {
+				width: 100%;
+				font-size: .35em;
+				text-align: center;
+				color: $red;
+			}
+
+		}
+
+		&.hex {
+			pre {
+				width: 30%;
+				font-size: 1em;
+
+				&:first-of-type {
+					margin-left: 22.5%;
+				}
+
+				&:last-of-type {
+					width: 100%;
+					font-size: .6em;
+					text-align: center;
+				}
+			}
+		}
+
+		&.char {
+			pre {
+				width: 35%;
+				font-size: 1.4em;
+
+				&:first-of-type {
+					margin-left: 17.5%;
+				}
+
+				&:last-of-type {
+					width: 100%;
+					font-size: .6em;
+					text-align: center;
+				}
+			}
+		}
+
+	}
+
+	&.characters {
+		pre {
+			float: left;
+			width: 50%;
+			font-size: 3em;
+			box-shadow: none;
+		}
+	}
+
+
+	.postbyte {
+
+		float: left;
+		width: 33%;
+
+		&:first-of-type { pre.byte:before { content: '['; left: -5px; } }
+		&:last-of-type { pre.byte:after { content: ']'; right: -5px; } }
+
+		pre.byte {
+
+			padding: 0; margin: 20px 0 30px;
+			font-size: 1.2em;
+			text-align: center;
+			box-shadow: none;
+
+			&:before, &:after {
+				position: absolute;
+				top: -6px;
+				margin: 0;
+				font-size: 1.2em;
+			}
+
+			b { color: $red; }
+
+		}
+
+		.postcard {
+			position: relative;
+			width: 280px; height: 240px;
+			background: #ffffff;
+			border: 2px solid black;
+			outline: 6px solid white;
+
+			&:after {
+				content: "";
+				position: absolute;
+				right: 5px; top: 5px;
+				width: 50px; height: 60px;
+				background: url( '../images/stamp.gif' );
+				background-size: cover;
+			}
+
+			h5 {
+				text-align: left;
+				padding: 10px 20px 5px;
+				text-shadow: none;
+				color: $red;
+			}
+
+			p {
+				padding: 0 10px; margin: 0;
+				text-align: left;
+				text-shadow: none;
+				color: $black;
+				font-family: cursive;
+				font-size: 19px;
+
+			}
+		}
+
+	}
+
+	&.nametag {
+		img {
+			transform: rotate(-5deg);
+		}
+	}
+
+}
+
+
+
