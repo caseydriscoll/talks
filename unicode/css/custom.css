@@ -114,16 +114,24 @@ section .postbyte {
     section .postbyte .postcard h5 {
       text-align: left;
       padding: 10px 20px 5px;
+      margin: 0;
       text-shadow: none;
       color: #aa2233; }
     section .postbyte .postcard p {
-      padding: 0 10px;
-      margin: 0;
+      padding: 0 10px 10px;
+      margin: 10px 0 0 0;
       text-align: left;
       text-shadow: none;
       color: #222222;
       font-family: cursive;
       font-size: 19px; }
+    section .postbyte .postcard b {
+      font-size: 6em;
+      font-family: monospace;
+      color: #222222;
+      text-align: center; }
+      section .postbyte .postcard b.intl {
+        font-size: 4em; }
 section.nametag img {
   transform: rotate(-5deg); }
 

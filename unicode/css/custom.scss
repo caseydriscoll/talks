@@ -166,19 +166,28 @@ section {
 
 			h5 {
 				text-align: left;
-				padding: 10px 20px 5px;
+				padding: 10px 20px 5px; margin: 0;
 				text-shadow: none;
 				color: $red;
 			}
 
 			p {
-				padding: 0 10px; margin: 0;
+				padding: 0 10px 10px; margin: 10px 0 0 0;
 				text-align: left;
 				text-shadow: none;
 				color: $black;
 				font-family: cursive;
 				font-size: 19px;
 
+			}
+
+			b {
+				font-size: 6em;
+				font-family: monospace;
+				color: $black;
+				text-align: center;
+
+				&.intl { font-size: 4em; }
 			}
 		}
 
