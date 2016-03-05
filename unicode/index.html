@@ -293,18 +293,13 @@ d = 30
 					<h3 class="fragment">Design Characters</h3>
 				</section>
 
-				<section>
-					<script>
-						console.log( 'here be unicode chars' );
-					</script>
+				<section data-state="trigger-unicode-chars">
+					<h1 id="unicodeTicker"></h1>
 				</section>
 
 
-				<section class="standards" data-background="images/xkcd-standards.png">
+				<section class="standards" data-state="stop-unicode-chars" data-background="images/xkcd-standards.png">
 				</section>
-
-
-
 
 
 				<section class="structure">
@@ -768,6 +763,26 @@ a = 97
 				]
 			});
 
+			var unicodeTicker;
+			var random, chars;
+
+			function unicodeTick() {
+
+				chars = '';
+
+				for ( var u = 0; u < 18; u++ ) {
+
+					if ( u > 5 && u % 6 == 0 )
+						chars += '<br />';
+
+					random = Math.floor( Math.random() * 32000 );
+
+					chars += '&#' + random + ';'
+				}
+
+				document.getElementById( 'unicodeTicker' ).innerHTML = chars;
+			}
+
 			var ticker;
 			var tickInt = 0;
 
@@ -825,6 +840,18 @@ a = 97
 				else
 					tickInt++;
 			}
+
+			Reveal.addEventListener( 'trigger-unicode-chars', function() {
+
+		    	unicodeTicker = setInterval( unicodeTick, 500 );
+
+			}, false );
+
+			Reveal.addEventListener( 'stop-unicode-chars', function() {
+
+		    	unicodeTicker = clearInterval( unicodeTicker );
+
+			}, false );
 
 			Reveal.addEventListener( 'trigger-byte-ticker', function() {
 
