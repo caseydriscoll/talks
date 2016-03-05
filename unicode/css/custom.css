@@ -97,6 +97,11 @@ section.characters pre {
     width: 100%;
     font-size: 4em;
     line-height: .8em; }
+section.alphabets ul {
+  list-style: none; }
+  section.alphabets ul li {
+    font-size: 2em;
+    font-weight: bold; }
 section .postbyte {
   float: left;
   width: 33%; }

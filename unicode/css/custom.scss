@@ -152,6 +152,17 @@ section {
 		}
 	}
 
+	&.alphabets {
+		ul {
+			list-style: none;
+
+			li {
+				font-size: 2em;
+				font-weight: bold;
+			}
+		}
+	}
+
 
 	.postbyte {
 
