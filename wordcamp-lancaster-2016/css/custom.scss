@@ -11,6 +11,31 @@ section {
 		box-shadow: none;
 	}
 
+	.face { font-size: 3.5em; }
+
+	&.byteTicker {
+		position: relative;
+
+		h1 { 
+			font-family: monospace; 
+			text-align: right;
+
+			#byteTickerNumber {
+				position: absolute;
+				right: 0; top: -100px;
+			}
+
+			#byteTickerChar {
+				display: block; position: absolute;
+				left: 0; top: -100px;
+				padding: 0 30px;
+				color: $red;
+				text-shadow: none;
+				border: 5px solid $red;
+			}
+		}
+	}
+
 	&.definition {
 		text-align: left;
 
@@ -118,6 +143,23 @@ section {
 			width: 50%;
 			font-size: 3em;
 			box-shadow: none;
+
+			&.full { 
+				width: 100%;
+				font-size: 4em;
+				line-height: .8em;
+			}
+		}
+	}
+
+	&.alphabets {
+		ul {
+			list-style: none;
+
+			li {
+				font-size: 2em;
+				font-weight: bold;
+			}
 		}
 	}
 
@@ -166,19 +208,28 @@ section {
 
 			h5 {
 				text-align: left;
-				padding: 10px 20px 5px;
+				padding: 10px 20px 5px; margin: 0;
 				text-shadow: none;
 				color: $red;
 			}
 
 			p {
-				padding: 0 10px; margin: 0;
+				padding: 0 10px 10px; margin: 10px 0 0 0;
 				text-align: left;
 				text-shadow: none;
 				color: $black;
 				font-family: cursive;
 				font-size: 19px;
 
+			}
+
+			b {
+				font-size: 6em;
+				font-family: monospace;
+				color: $black;
+				text-align: center;
+
+				&.intl { font-size: 4em; }
 			}
 		}
 
