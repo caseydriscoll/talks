@@ -1,3 +1,5 @@
+This is time.
+
 How is time represented?
 
 Time and time keeping is at the heart of all computers, networks and communication systems. It is essential that all components of the global system agree on time to keep processes in sync every minute of the year.
