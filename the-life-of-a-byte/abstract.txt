@@ -2,7 +2,7 @@ Where do bytes go?
 
 If we were to track a single byte character, for example the letter 'A', how would it be stored and moved on a trip to a server and back again?
 
-Say for example we create a new page on a common WordPress LEMP install. The page has a single character title 'A' and no other content or taxonomy information. 
+Say for example we create a new page on a common WordPress LEMP install. The page has a title, a single character 'A' and no other content or taxonomy information.
 
 The page is then published.
 
