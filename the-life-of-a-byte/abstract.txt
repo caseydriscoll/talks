@@ -12,7 +12,9 @@ Most of us could summarize the trip in 45 seconds, but what if we dug just a lit
 
 What are the layers of abstraction involved and how granualar can we get in 45 minutes?
 
-At every interface connection point we will find a little more illumniation on how the web *really* works.
+At every interface connection point we will find a little more illumination on how the web *really* works.
+
+In no way will we cover 'everything' involved in a single form submission. We will however shed some light on previously abstracted black boxes, giving the audience just a little more context on a very complex global system.
 
 Preliminary structure is:
 1. Cold Open
