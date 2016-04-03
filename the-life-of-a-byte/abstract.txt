@@ -1,0 +1,23 @@
+Where do bytes go?
+
+If we were to track a single byte character, for example the letter 'A', how would it be stored and moved on a trip to a server and back again?
+
+Say for example we create a new page on a common WordPress LEMP install. The page has a single character title 'A' and no other content or taxonomy information. 
+
+The page is then published.
+
+How is that byte, 0100 0001, stored in the browser, packeted through TCP/IP, POSTed to nginx, processed through PHP, committed to database and received again by the browser?
+
+Most of us could summarize the trip in 45 seconds, but what if we dug just a little deeper at each step?
+
+What are the layers of abstraction involved and how granualar can we get in 45 minutes?
+
+At every interface connection point we will find a little more illumniation on how the web *really* works.
+
+Preliminary structure is:
+1. Cold Open
+2. As a character of Unicode in the browser
+3. As a packet in TCP/IP
+4. As a POST data stream in nginx
+5. As a variable in memory in PHP
+6. As a byte on disk in MySQL
