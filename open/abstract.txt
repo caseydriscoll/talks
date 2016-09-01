@@ -1,0 +1,23 @@
+How are ideas best implemented?
+
+Do ideas grow best behind walled gardens, away from the trampling feet of the commons?
+
+Do ideas grow best in the public space, away from the blinding perspective of singular thought?
+
+Do ideas grow differently in different environments?
+
+Every day I work on projects built on open source code, many of them using open data and built for the public good.
+
+In November of 2016 I will be attending OpenCon, a major conference focused on further creating more open technical environments, especially in the realm of research and higher education.
+
+http://www.opencon2016.org/
+
+I will share my experiences, discuss the positives and negatives of 'openness', and advocate for open practices in your life and career.
+
+Preliminary structure is:
+1. Cold Open
+2. Open Access
+3. Open Education
+4. Open Data
+5. Open Source
+6. WordPress out in the Open
