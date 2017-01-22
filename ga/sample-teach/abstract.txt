@@ -1,0 +1,43 @@
+Sample Teach - An Introduction to HTML, CSS, JS
+
+With the advent of the Information Age, publishers needed a way to share information with the masses.
+
+In the early 1990s, anyone with an Internet connection could share documents with any other user on the Internet.
+
+However, reading these documents meant the receiving user had to have the same document software as the sender. This software was typically expensive and proprietary.
+
+The world needed a way to quickly serve and browse documents. These documents needed to be fast and lightweight, linked to other documents on the 'Web', and structured so they may be consistently viewed around the world on a variety of machines.
+
+This is the purpose of HTML, to structure inforation into linked documents, and CSS and JavaScript add styling and scripted interactions to those documents. 
+
+Core Concepts:
+==============
+Client-Server Model
+Portability
+Devices
+Browser
+Hyperlink
+Tags
+  Document Tags
+  Structure Tags
+  Text Tags
+  Media Tags
+  Form Tags
+Attributes
+  Source and Href
+  IDs and Classes
+  HTML5 Data and Aria
+Selectors
+Specificity
+Cascading Styles
+Media Breakpoints
+DOM: Document Object Model
+Events
+
+
+Preliminary structure is:
+=========================
+1. Cold Open
+2. HTML - Structured Documents
+3. CSS  - Styling Documents
+4. JS   - Scripting Documents
