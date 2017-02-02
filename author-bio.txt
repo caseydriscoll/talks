@@ -1,14 +1,8 @@
-By day, a full stack web dev of open source technologies that include WordPress and JS at CHIEF.
-By night, a dedicated community organizer in the DC Tech community and the founder of PatchWorks.
+Hello, World!
 
-http://agencychief.com/team-member/casey-driscoll
-https://patch.works/about/casey-driscoll
+By day, I'm a senior full-stack, open-source web developer at WebDevStudios. By night, I'm an amateur historian and arm-chair philosopher, fascinated by how things work and what makes people tick.
 
-Casey has an undergraduate degree in Computer Science from the University of Wisconsin-Eau Claire.
+I like to think of myself as the most limited of all specialists, the “well-rounded” man. In the first decade of my adult life, I was a university mascot, a ‘Momentum Monday Man,’ graphic designer, Special Olympics gymnastics coach, (failed) politician, software developer, historian, documentarian, and anger management volunteer. I saw Steve Jobs unveil the iPhone in person at MacWorld 2007. I play too much Civilization, and I've been to Chichen Itza twice. Elon Musk is my homeboy, and
+tequila is my drink of choice. My only weakness is Amanda Palmer. Watching the Packers play makes me R-E-L-A-X.
 
-Spoken at a few local tech events. Co-organizer at WordPressDC meet up.
-
-https://www.youtube.com/watch?v=wSPgLnfjqSA
-https://www.youtube.com/watch?v=t064jcd1z20
-https://www.youtube.com/watch?v=tV-sAIyunf8
-https://www.youtube.com/watch?v=u0cobFbnR54
+For me though, technology is only a tool for connecting with people and understanding the world around us. For the next decade of my adult life, I want to build things – hopefully cool things that people will want to use, software that helps people and makes the world a better place.
