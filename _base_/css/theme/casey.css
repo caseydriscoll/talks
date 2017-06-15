@@ -79,7 +79,7 @@
     .reveal .structure ol li.current {
       color: #e30613; }
       .reveal .structure ol li.current ~ li {
-        opacity: .5; }
+        opacity: .1; }
 
 .reveal section.me .nametag {
   width: 256px;

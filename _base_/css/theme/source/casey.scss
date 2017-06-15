@@ -133,7 +133,7 @@ $selectionColor: #fff;
 
         &.current {
           color: $brand-primary;
-          & ~ li { opacity: .5 }
+          & ~ li { opacity: .1 }
         }
 
       }
