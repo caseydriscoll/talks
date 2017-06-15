@@ -46,25 +46,21 @@
 					<h4><a class="url" href="https://caseydris.co/talks/wcdc17/">caseydris.co/talks/wcdc17</a> | <a href="http://twitter.com/caseydriscoll" target="_blank">@caseydriscoll</a></h4>
 				</section>
 				<section class="structure">
-					<ol>
-						<li>Why?</li>
-						<li>Point<br />One</li>
-						<li>Point<br />Two</li>
-						<li>Point<br />Three</li>
-						<li>Point<br />Four</li>
-						<li>In<br/>Review</li>
+					<ol id="structure">
+						<li>Why<br>Modern?</li>
+						<li>Depend on<br>Composer</li>
+						<li>Build<br>with Yarn</li>
+						<li>Style with<br>Bootstrap</li>
+						<li>Template<br>with Blade</li>
+						<li>Twelve<br>Factor</li>
 					</ol>
 				</section>
-				<section class="structure">
-					<ol>
-						<li class="current">Why?</li>
-						<li>Point<br />One</li>
-						<li>Point<br />Two</li>
-						<li>Point<br />Three</li>
-						<li>Point<br />Four</li>
-						<li>In<br/>Review</li>
-					</ol>
-				</section>
+				<section class="structure"></section>
+				<section class="structure"></section>
+				<section class="structure"></section>
+				<section class="structure"></section>
+				<section class="structure"></section>
+				<section class="structure"></section>
 				<section class="me">
 					<div class="nametag">
 				</section>
@@ -74,6 +70,26 @@
 		<script src="../_base_/lib/js/head.min.js"></script>
 		<script src="../_base_/js/reveal.js"></script>
 
+		<script>
+
+			function duplicateStructure() {
+				var struct = document.getElementById( 'structure' );
+				var clones = document.getElementsByClassName( 'structure' );
+
+				Array.prototype.forEach.call(clones, function( clone, index, array ) {
+					if ( index == 0 ) return;
+					newStruct = struct.cloneNode(true);
+
+					newStruct.getElementsByTagName( 'li' )[index-1].className += ' current';
+					clone.appendChild( newStruct );
+				} );
+
+			}
+
+			duplicateStructure();
+
+		</script>
+		
 		<script>
 			// More info https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
