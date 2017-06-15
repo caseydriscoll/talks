@@ -81,15 +81,63 @@
       .reveal .structure ol li.current ~ li {
         opacity: .1; }
 
-.reveal section.me .nametag {
-  width: 256px;
-  height: 256px;
-  background: url("../../img/favicon.png") center center no-repeat; }
+.reveal section.me .dia {
+  float: left;
+  width: 50%;
+  padding: 10rem 0;
+  margin-left: 10%; }
+  .reveal section.me .dia .nametag {
+    width: 256px;
+    height: 256px;
+    margin: 0 auto;
+    background: url("../../img/favicon.png") center center no-repeat; }
+  .reveal section.me .dia .photo {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    background: url("../../img/caseydriscoll.jpg") center center no-repeat;
+    background-size: 400px;
+    box-shadow: 0 0 10px gray;
+    border-radius: .5rem; }
 
-.reveal section.me .photo {
-  width: 256px;
-  height: 256px;
-  background: url("../../img/favicon.png") center center no-repeat; }
+.reveal section.me .bio {
+  float: left;
+  width: 30%;
+  padding: 8.5rem 0; }
+  .reveal section.me .bio:nth-of-type(2) p {
+    margin-bottom: 0;
+    line-height: 1.5; }
+  .reveal section.me .bio:nth-of-type(2) img {
+    max-width: 100%;
+    margin: 1.5rem auto .5rem; }
+  .reveal section.me .bio:nth-of-type(2) span {
+    display: block;
+    width: 8rem;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 0.6rem; }
+  .reveal section.me .bio p {
+    margin-bottom: 1rem;
+    text-align: center;
+    line-height: 1.25em;
+    font-size: 1.0rem;
+    font-weight: 600; }
+    .reveal section.me .bio p em, .reveal section.me .bio p a {
+      font-weight: 900;
+      color: #e30613;
+      border: none;
+      font-style: italic; }
+    .reveal section.me .bio p img {
+      margin: 1.5rem auto;
+      -webkit-border-radius: .5rem;
+      -moz-border-radius: .5rem;
+      border-radius: .5rem; }
+    .reveal section.me .bio p strong {
+      font-weight: 900; }
+      .reveal section.me .bio p strong.heart {
+        color: #e30613;
+        font-style: normal; }
 
 /*********************************************
  * GLOBAL STYLES

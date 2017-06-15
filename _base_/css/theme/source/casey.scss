@@ -141,13 +141,105 @@ $selectionColor: #fff;
   }
 
   section.me {
-    .nametag {
-      width: 256px; height: 256px;
-      background: url( '../../img/favicon.png') center center no-repeat;
+    .dia {
+      float: left;
+      width: 50%;
+      padding: 10rem 0; margin-left: 10%;
+
+      .nametag {
+        width: 256px; height: 256px;
+        margin: 0 auto;
+        background: url( '../../img/favicon.png') center center no-repeat;
+      }
+      .photo {
+        width: 400px; height: 400px;
+        margin: 0 auto;
+        background: url( '../../img/caseydriscoll.jpg') center center no-repeat;
+        background-size: 400px;
+        box-shadow: 0 0 10px gray;
+        border-radius: .5rem;
+      }
     }
-    .photo {
-      width: 256px; height: 256px;
-      background: url( '../../img/favicon.png') center center no-repeat;
+
+    .bio {
+      float: left;
+      width: 30%;
+      padding: 8.5rem 0;
+
+      // @include media-breakpoint-up(md) {
+      //   padding: .5rem 0;
+      // }
+
+      &:nth-of-type(2) {
+        p {
+          margin-bottom: 0;
+          line-height: 1.5;
+        }
+
+        img {
+          max-width:100%;
+          margin: 1.5rem auto .5rem;
+        }
+
+        span {
+          display: block;
+          width: 8rem;
+          padding: 0; margin: 0 auto;
+          text-align: center;
+          font-size: 0.6rem;
+        }
+      }
+
+      p {
+        margin-bottom: 1rem;
+        text-align: center;
+        line-height: 1.25em;
+        font: {
+          size: 1.0rem;
+          weight: 600;
+        }
+
+        // @include media-breakpoint-up(md) {
+        //   font: {
+        //     size: .6rem;
+        //     weight: 500;
+        //   }
+        // }
+
+        // @include media-breakpoint-up(lg) {
+        //   font: {
+        //     size: .8rem;
+        //     weight: 600;
+        //   }
+        // }
+
+        em, a {
+          font-weight: 900;
+          color: $brand-primary;
+          border: none;
+          font-style: italic;
+        }
+
+        img {
+          margin: 1.5rem auto;
+          -webkit-border-radius: .5rem;
+          -moz-border-radius: .5rem;
+          border-radius: .5rem;
+
+          // @include media-breakpoint-up(md) {
+          //   max-width: 8rem;
+          // }
+        }
+
+        strong {
+          font-weight: 900;
+
+          &.heart {
+            color: #e30613;
+            font-style: normal;
+          }
+        }
+      }
     }
   }
 }
