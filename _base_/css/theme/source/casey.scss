@@ -54,9 +54,6 @@ $selectionColor: #fff;
 
 .fixed {
 
-  * {
-  }
-
   .brand {
     a.icon {
       display: block; position: fixed;
@@ -69,12 +66,13 @@ $selectionColor: #fff;
       text-indent: -9999px;
     }
 
-    a.twitter {
+    div.links {
       display: block; position: fixed;
       z-index: 100;
       left: 0; bottom: 0;
       padding: 20px;
       font-size: 14px;
+      font-style: italic;
     }
   }
 
