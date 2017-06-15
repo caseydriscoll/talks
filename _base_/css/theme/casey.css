@@ -13,7 +13,7 @@
   display: block;
   position: fixed;
   z-index: 100;
-  left: 0;
+  left: 10px;
   top: 0;
   width: 80px;
   height: 80px;
@@ -28,7 +28,7 @@
   z-index: 100;
   left: 0;
   bottom: 0;
-  padding: 8px;
+  padding: 20px;
   font-size: 14px; }
 
 .fixed div.talk {
@@ -42,7 +42,8 @@
   .fixed div.talk h1.title {
     margin: 0 0 5px;
     font-size: 14px;
-    text-transform: capitalize; }
+    text-transform: capitalize;
+    font-style: italic; }
   .fixed div.talk a.url {
     display: block;
     font-size: 14px;

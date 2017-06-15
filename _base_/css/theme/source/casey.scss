@@ -61,7 +61,7 @@ $selectionColor: #fff;
     a.icon {
       display: block; position: fixed;
       z-index: 100;
-      left: 0; top: 0;
+      left: 10px; top: 0;
       width: 80px; height: 80px;
       background: url( '../../img/favicon.png') center center no-repeat;
       background-size: 64px;
@@ -73,7 +73,7 @@ $selectionColor: #fff;
       display: block; position: fixed;
       z-index: 100;
       left: 0; bottom: 0;
-      padding: 8px;
+      padding: 20px;
       font-size: 14px;
     }
   }
@@ -89,6 +89,7 @@ $selectionColor: #fff;
       margin: 0 0 5px;
       font-size: 14px; 
       text-transform: capitalize;
+      font-style: italic;
     }
 
     a.url {
