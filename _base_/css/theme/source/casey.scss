@@ -53,6 +53,53 @@ $linkColorHover: lighten( $linkColor, 20% );
 $selectionBackgroundColor: $brand-code-red;
 $selectionColor: #fff;
 
+.fixed {
+
+  * {
+  }
+
+  .brand {
+    a.icon {
+      display: block; position: fixed;
+      z-index: 100;
+      left: 0; top: 0;
+      width: 80px; height: 80px;
+      background: url( '../../img/favicon.png') center center no-repeat;
+      background-size: 64px;
+      cursor: pointer;
+      text-indent: -9999px;
+    }
+
+    a.twitter {
+      display: block; position: fixed;
+      z-index: 100;
+      left: 0; bottom: 0;
+      padding: 8px;
+      font-size: 14px;
+    }
+  }
+
+  div.talk {
+    display: block; position: fixed;
+    z-index: 100;
+    right: 0; top: 0;
+    padding: 20px;
+    text-align: right;
+
+    h1.title {
+      margin: 0 0 5px;
+      font-size: 14px; 
+      text-transform: capitalize;
+    }
+
+    a.url {
+      display: block;
+      font-size: 14px; 
+      font-weight: 700;
+      text-transform: lowercase;
+    }
+  }
+}
 
 // Theme template ------------------------------
 @import "../template/theme";
