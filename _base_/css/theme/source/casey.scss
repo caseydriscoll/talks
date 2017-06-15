@@ -139,6 +139,17 @@ $selectionColor: #fff;
       }
     }
   }
+
+  section.me {
+    .nametag {
+      width: 256px; height: 256px;
+      background: url( '../../img/favicon.png') center center no-repeat;
+    }
+    .photo {
+      width: 256px; height: 256px;
+      background: url( '../../img/favicon.png') center center no-repeat;
+    }
+  }
 }
 
 // Theme template ------------------------------
