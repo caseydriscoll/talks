@@ -184,3 +184,10 @@ $selectionColor: #fff;
 .reveal small code {
     vertical-align: baseline;
 }
+
+.reveal .progress {
+  bottom: auto; top: 0;
+  height: 10px;
+
+  span { background-color: $brand-primary;   }
+}
