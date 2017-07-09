@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>Casey Driscoll talks about __STARTER__</title>
+		<title>Casey Driscoll talks about Modern WordPress Theme Development with Sage 9.0</title>
 
 		<link rel="stylesheet" href="../_base_/css/reveal.css">
 		<link rel="stylesheet" href="../_base_/css/theme/casey.css">
@@ -63,6 +63,9 @@
 				<section>
 					<h2>Depend on<br>Composer</h2>
 				</section>
+        <section>
+          <video data-autoplay src="https://caseydris.co/app/uploads/wcdc17-00-git-clone.mp4"></video>
+        </section>
 				<section class="structure"></section>
 				<section>
 					<h2>Build<br>with Yarn</h2>
@@ -147,7 +150,9 @@
 					{ src: '../_base_/plugin/markdown/markdown.js' },
 					{ src: '../_base_/plugin/notes/notes.js', async: true },
 					{ src: '../_base_/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
+				],
+
+        touch: true
 			});
 		</script>
 		<script>
