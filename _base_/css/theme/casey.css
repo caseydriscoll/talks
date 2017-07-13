@@ -51,6 +51,9 @@
     font-weight: 700;
     text-transform: lowercase; }
 
+em {
+  color: #e30613; }
+
 .reveal .structure ol li {
   display: block;
   position: relative;
