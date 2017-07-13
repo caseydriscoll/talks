@@ -51,36 +51,33 @@
     font-weight: 700;
     text-transform: lowercase; }
 
-.reveal .structure ol {
-  margin-top: 60px; }
-  .reveal .structure ol li {
-    display: block;
-    position: relative;
-    float: left;
-    width: 40%;
-    height: 140px;
-    margin: 10px 5%;
-    font-size: 40px;
-    line-height: 40px;
-    font-weight: bold;
-    text-align: center;
-    text-transform: uppercase;
-    list-style: none; }
-    .reveal .structure ol li::before, .reveal .structure ol li::after {
-      position: absolute;
-      top: 15px;
-      font-size: 140px;
-      font-weight: normal; }
-    .reveal .structure ol li::before {
+.reveal .structure ol li {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 70px;
+  margin: 15px auto;
+  font-size: 60px;
+  line-height: 2;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  list-style: none; }
+  .reveal .structure ol li::before, .reveal .structure ol li::after {
+    position: absolute;
+    top: -13px;
+    font-size: 70px;
+    font-weight: normal; }
+  .reveal .structure ol li.current {
+    color: #e30613; }
+    .reveal .structure ol li.current::before {
       content: "{";
-      left: 0; }
-    .reveal .structure ol li::after {
+      left: -40px; }
+    .reveal .structure ol li.current::after {
       content: "}";
-      right: 0; }
-    .reveal .structure ol li.current {
-      color: #e30613; }
-      .reveal .structure ol li.current ~ li {
-        opacity: .1; }
+      right: -40px; }
+    .reveal .structure ol li.current ~ li {
+      opacity: .1; }
 
 .reveal section.me .dia {
   float: left;
